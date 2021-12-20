@@ -19,7 +19,8 @@ def ENCRYPTION(text,shift):
     # traverse text
     for i in range(len(text)):
         char = text[i]
- 
+ # 
+print("hi")
         # Encrypt uppercase characters
         if (char.isupper()):
             RES += chr((ord(char) + shift-65) % 26 + 65)
